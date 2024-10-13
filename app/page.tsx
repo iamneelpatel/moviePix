@@ -178,8 +178,8 @@ export default function LandingPage() {
                 <Image
                   src={`https://image.tmdb.org/t/p/w500${currentMedia.poster_path}`}
                   alt={currentMedia.title || currentMedia.name}
-                  width={500}
-                  height={750}
+                  width={250}
+                  height={375}
                   className="w-full md:w-1/3 h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-6"
                 />
                 <div className="text-left">
